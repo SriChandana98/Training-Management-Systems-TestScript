@@ -1,15 +1,15 @@
 class trainer1{
-     tariners :any = [];
+     trainers :any = [];
      insert(empobj) {
-        this.tariners.push(empobj);
+        this.trainers.push(empobj);
     }
      display() {
-        console.log(this.tariners);
+        console.log(this.trainers);
     }
     
     delete(index:Number)
     {
-        this.tariners.splice(index, 1);
+        this.trainers.splice(index, 1);
     }
 }
 var obj = new trainer1();
